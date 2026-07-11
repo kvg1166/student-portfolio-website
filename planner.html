@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Planner</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<h2 class="logo">Student Portfolio</h2>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="planner.html">Planner</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+</nav>
+
+</header>
+
+<section>
+
+<h2>Academic Planner</h2>
+
+<p>
+
+Use this planner to organize your assignments, study schedule and personal academic activities.
+
+</p>
+
+</section>
+
+
+<section>
+
+<div class="task-input">
+
+<input
+type="text"
+id="taskInput"
+placeholder="Enter a new task">
+
+<button onclick="addTask()" class="btn">
+
+Add Task
+
+</button>
+
+</div>
+
+<h3>Total Tasks:
+<span id="totalTasks">0</span>
+
+</h3>
+
+<h3>Completed Tasks:
+<span id="completedTasks">0</span>
+
+</h3>
+
+<br>
+
+<ul id="taskList" class="task-list">
+
+</ul>
+
+</section>
+
+
+<footer>
+
+<p>
+
+<i class="fa-solid fa-envelope"></i>
+
+c.iheomamere9974@miva.edu.ng
+
+</p>
+
+<p>
+
+<i class="fa-solid fa-phone"></i>
+
+08036892558
+
+</p>
+
+<p>
+
+© 2026 Chukwuemeka Iheomamere
+
+</p>
+
+</footer>
+
+<script src="js/planner.js"></script>
+
+</body>
+
+</html>
